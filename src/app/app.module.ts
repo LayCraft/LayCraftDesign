@@ -5,18 +5,21 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ResumeComponent } from './resume/resume.component';
+import { ResumeDataService } from './resume-data.service';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ResumeComponent
+    ResumeComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
   ],
-  providers: [],
+  providers: [ ResumeDataService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

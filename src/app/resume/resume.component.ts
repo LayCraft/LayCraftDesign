@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class ResumeComponent implements OnInit {
   title: string;
   data: any;
-  constructor() {}
+  constructor() {
+    this.title = 'Résumé';
+  }
 
   ngOnInit() {
   }
