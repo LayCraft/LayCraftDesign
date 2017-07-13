@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ResumeDataService } from './resume-data.service';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ResumeComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
