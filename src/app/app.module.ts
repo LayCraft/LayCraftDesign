@@ -9,6 +9,7 @@ import { ResumeDataService } from './resume-data.service';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { MainRoutingModule } from './main/main-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,14 +17,15 @@ import { FooterComponent } from './footer/footer.component';
     ResumeComponent,
     LandingPageComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    MainRoutingModule
   ],
   providers: [ ResumeDataService ],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
