@@ -153,5 +153,6 @@ export const RESUME = [
       { shortDesc: 'Six month co-op. Time and Leave Project'},
       { longDesc: 'Six month co-op. Time and Leave Project; changeover to Oracle PeopleSoft. Report creation, data analysis, implementation, process recommendations, troubleshooting, strategic threat & risk assessment (STRA), privacy impact assessment (PIA), support for data migration. Specialization in implementation of the mobile version of MyHR.'}
     ]
-  ]}
+  ]},
+  { interests: ''}
 ];
