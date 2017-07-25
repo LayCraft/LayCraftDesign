@@ -23,6 +23,7 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "typescript": "~2.4.2",
     "bootstrap": "~4.0.0-alpha.6",
     "core-js": "^2.4.1",
     "express": "^4.15.3",
@@ -46,11 +47,10 @@
     "protractor": "~5.1.0",
     "ts-node": "~3.3.0",
     "tslint": "~5.5.0",
-    "typescript": "~2.4.2",
     "tether": "~1.4.0"
   },
   "engines": {
-    "node": "^8.2.1",
+    "node": "8.2.1",
     "npm": "5.3.0"
   }
 }
