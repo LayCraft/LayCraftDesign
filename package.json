@@ -47,7 +47,7 @@
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0",
-    "jquery": "~3.2.1",
+    "jquery": "~3.4.1",
     "tether": "~1.4.0",
     "bootstrap": "~4.0.0-alpha.6"
   },
